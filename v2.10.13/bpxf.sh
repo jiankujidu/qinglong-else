@@ -3,7 +3,7 @@ set -e
 
 get_step(){
 stty erase ^?
-echo -e "-----十一教程网-----
+echo -e "-----瞎折腾-----
 \n0.退出\n1.修复白屏问题(支持最高v2.11.1版)\n2.还原白屏修复前初始index.html文件\n3.查看index.html文件\n4.去仓库找回对应index.html原文件(仅v2.10.6版-最新版)\n5.修复PC端脚本管理等界面空白问题(先修复完白屏，再执行)
 \n-----SUIYUE-----"
 
@@ -48,7 +48,7 @@ if [ ! -s /ql/dist/index.html.bak ]; then
 fi
 
 echo "####2、2开始下载js.tar.gz文件到/ql/dist"
-wget -t 5 https://gitee.com/suiyuehq/ziyong/raw/master/ql_cdn/v2.10.13/js.tar.gz -P /ql/dist
+wget -t 5 https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/qinglong-else/main/v2.10.13/js.tar.gz -P /ql/dist
 
 echo "####2、3解压js.tar.gz文件到/ql/dist/js"
 tar -zxvf /ql/dist/js.tar.gz -C /ql/dist
