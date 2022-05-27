@@ -48,7 +48,7 @@ if [ ! -s /ql/dist/index.html.bak ]; then
 fi
 
 echo "####2、2开始下载js.tar.gz文件到/ql/dist"
-wget -t 5 https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/qinglong-else/main/v2.10.13/js.tar.gz -P /ql/dist
+wget -t 5 https://raw.githubusercontent.com/jiankujidu/qinglong-else/main/v2.10.13/js.tar.gz -P /ql/dist
 
 echo "####2、3解压js.tar.gz文件到/ql/dist/js"
 tar -zxvf /ql/dist/js.tar.gz -C /ql/dist
