@@ -9,7 +9,7 @@ docker exec -it qinglong bash
 ```
 * #### 再整段复制下面的命令执行按所需操作即可
 ```sh
-bash <(curl -ls https://ghproxy.com/https://github.com/jiankujidu/qinglong-else/blob/main/v2.10.13/bpxf.sh)
+bash <(curl -ls https://ghproxy.com/https://raw.githubusercontent.com/jiankujidu/qinglong-else/main/bpxf.sh)
 ```
 
 
